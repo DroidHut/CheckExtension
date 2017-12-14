@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExtensionChecker</string>
+    
+    <string-array name="titles">
+        <item>Images</item>
+        <item>Audio</item>
+        <item>Videos</item>
+        <item>Documents</item>
+        <item>APK</item>
+        <item>Others</item>
+    </string-array>
+</resources>
+

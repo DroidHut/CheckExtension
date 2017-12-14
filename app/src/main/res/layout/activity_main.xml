@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1f5fe"
+    tools:context="com.example.shivani.extensionchecker.MainActivity">
+
+<GridView
+    android:id="@+id/grid"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:numColumns="2"
+    android:horizontalSpacing="2dp"
+    android:verticalSpacing="2dp"
+    android:layout_margin="5dp"
+    android:layout_centerInParent="true"
+    android:gravity="center"
+    android:stretchMode="spacingWidth"/>
+    <ListView
+        android:visibility="gone"
+        android:id="@android:id/list"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="4dp"
+        android:divider="@null"/>
+</RelativeLayout>
